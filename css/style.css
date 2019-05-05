@@ -25,7 +25,7 @@
 }
 
 #paper{
-    display: inline-block;
+    overflow: auto;
 }
 
 #paper > pre{
