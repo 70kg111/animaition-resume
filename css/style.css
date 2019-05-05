@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.token.property{
+    color: black;
+}
+.token.selector{
+    color: black;
+}
+.token.function{
+    color: black;
+}
+
+#code-wrapper{
+    height: 100%;
+    display: flex;
+}
+
+#code{
+    width: 100vh;  /*不超过当前页面高度*/
+    overflow: auto; /*超出部分给一个滚动条*/
+}
+
+#paper{
+    display: inline-block;
+}
+
+#paper > pre{
+    padding-left: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+@keyframes breath{
+    0%{
+      box-shadow: 0 0 10px rgba(0,0,0,1)
+    }
+    100%{
+      box-shadow: 0 0 10px rgba(0,0,0,0.2)
+    }
+}
