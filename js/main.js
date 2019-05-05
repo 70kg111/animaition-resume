@@ -163,5 +163,5 @@ function writeMarkdown(markdown, fn) {
             window.clearInterval(id)
             fn && fn.call()   //这里一定要调用一下
         }
-    }, 0)
+    }, 100)
 }
